@@ -445,6 +445,7 @@ input:hover, input:focus {
 
 
 #team{
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -455,7 +456,7 @@ input:hover, input:focus {
 .team-heading{
   font-size: 2.2rem;
   padding: 10px 20px;
-  margin: 20px;
+  margin: 0 auto;
   color: white;
   text-transform: uppercase;
   font-weight: 800;
@@ -515,10 +516,14 @@ input:hover, input:focus {
   padding: 20px 10px;
   z-index: 2;
 }
-.member-name h3,
-.member-name h5{
+.member-name h3{
   color: white;
   margin: 0px;
+  letter-spacing: 0.3px;
+}
+.member-name h5{
+  color: white;
+  margin-bottom: 6rem;
   letter-spacing: 0.3px;
 }
 .member-name h4{
