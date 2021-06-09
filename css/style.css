@@ -35,6 +35,8 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   margin: 0 auto;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .containers {
@@ -792,7 +794,49 @@ input:hover, input:focus {
   }
 }
 
+.testimonial-main {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 70px;
+}
 
+.testimonial-main:before {
+  content: "";
+  position: absolute;
+  right: 6%;
+  top: 12.5%;
+  width: 70%;
+  height: 10px;
+  background: #34f3ec;
+}
+
+.testimonial-main h1 {
+  font-size: 36px;
+  color: #444;
+  line-height: 27px;
+  margin-bottom: 20px;
+  position: relative;
+  padding: 0 20px;
+}
+
+.testimonial-main h1 {
+  font-size: 18px;
+  color: #757575;
+  line-height: 27px;
+  margin-bottom: 20px;
+  position: relative;
+  padding: 0 20px;
+}
+
+.testimonial {
+  text-align: center;
+  padding: 10px 30px 10px 30px;
+  margin: 70px 15px 25px;
+  border: 15px solid #34f3ec;
+  position: relative;
+  margin-top: 80px;
+}
 
 
 
@@ -3047,7 +3091,7 @@ ul, ol {
     left: 0;
     top: 50px;
     width: 100%;
-    background-color: #fff;
+    background-image: url("../img/body_bg.png");
     text-align: center !important;
   }
   /* line 246, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
